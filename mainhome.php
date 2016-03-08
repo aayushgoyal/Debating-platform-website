@@ -23,7 +23,6 @@ include("mainheader.php");
 </div>
 <h3>Debates</h3>
     <div id="left">
-	
         <?php
         include "connection.php";
         $s="select * from post order by post_id desc";
