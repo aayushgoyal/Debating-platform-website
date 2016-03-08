@@ -5,6 +5,7 @@
 	<style> img{ float:left;}
 </head>
 <body>
+
 <?php
 include ("adminheader.php");
 ?><span><img src="images/title.png" alt="logo" width="20%" height="20%"></img>
