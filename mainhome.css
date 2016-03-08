@@ -1,0 +1,171 @@
+#big_wrapper{
+	background-color:#E0E0E0;
+	-webkit-border-radius:5px 0px 5px;
+	margin:0px;
+	padding:0px;
+	top:-5%;
+	position:relative;
+	width:100%;
+}
+#header{
+    width: 1335px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#main{
+    width:auto;
+    background-color: white;
+    padding-left: 265px;
+    padding-right: 5px;
+}
+#footer{
+    clear: both;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#footer1{
+	width:99%;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	height:300px;
+	background-color:teal;	
+}
+
+li{
+	border:1px solid grey;
+	height:50px;
+    padding:10px;
+	width:98%;
+	text-align:center;
+	font-weight:500;
+	-webkit-border-radius:4px;
+}
+
+li:hover{
+	box-shadow: 1px 1px  1px black;
+}
+
+#support{
+	border:1px solid grey;
+	height:10px;
+	width:10%;
+	padding:20px;
+	text-align:center;
+	font-weight:400;
+	-webkit-border-radius:4px;
+	list-style:none;
+	background-color:teal;
+	padding-top:0;
+}
+
+#links{
+	font-size:20px;	
+	color:black;
+	font-family:quicksand;
+}
+
+#link_list{
+    padding:0px;
+	margin:5px;	
+	list-style:none;
+}
+h3{
+text-align:center;
+color:orange;
+font-size:29px;
+font-family:quicksand;
+font-weight:500;
+}
+#left{
+	padding:0;
+	margin:0;
+	left:0;
+}
+
+.slider_image{
+overflow:hidden; 
+margin:50px auto;
+height:440px;
+position:relative;
+}
+
+.image{
+position:absolute;
+-webkit-border-radius:13px;
+width:99%;
+margin-left:0.5%;
+margin-right:0.5%;
+max-height:450px;
+-webkit-animation:mm 15s infinite;
+opacity:0;
+}
+
+.image:nth-child(0){
+-webkit-animation-delay:0s;
+}
+.image:nth-child(1){
+-webkit-animation-delay:5s;
+}
+.image:nth-child(2){
+-webkit-animation-delay:10s;
+}
+
+@-webkit-keyframes mm{
+40%{opacity:1}
+65%{opacity:0}
+}
+
+#main_heading{
+	font-size:20px;	
+	color:black;
+	font-family:quicksand;
+	text-align:center;
+}
+
+#submit{
+	    border:1px solid black;
+		-webkit-border-radius:2px;
+		width:200px;
+		height:35px;
+		font-size:17px;
+		margin:0;
+		padding:0;
+}
+
+#text_area{
+	width:100%;
+	border:1px solid black;
+	-webkit-border-radius:2px;
+}
+
+#text_area:hover{
+	-webkit-box-shadow:1px 1px 0px grey;
+	-webkit-transition:0.3s linear;
+}
+
+#big_wrapper2{
+	font-size:20px;
+    font-family:roboto;	
+}
+
+#logo1{
+			width:550px;
+			height:250px;
+			padding:0;
+			margin:0;
+			left:70px;
+			top:20px;
+			position:relative
+		}
+		
+		#logo2{
+			width:30px;
+			height:30px;
+			top:-100px;
+			left:300px;
+			position:relative
+		}
+		#logo2:hover{
+			opacity:0.4;
+		}

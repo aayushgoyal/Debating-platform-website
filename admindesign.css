@@ -1,0 +1,133 @@
+#all {
+    width: 1335px;
+	float:left;
+}
+#header{
+    width: 1335px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #c00000 ;
+    font-family: cursive;
+	-webkit-border-radius:3px;
+}
+
+#head {
+    background-color: darkcyan;
+}
+
+#footer{
+clear: both;
+width: 1335px;
+padding-left: 5px;
+padding-right: 5px;
+font-family: cursive;
+}
+
+nav ul ul{
+    display: none;
+	width:16.4%;
+	background: #c00000 ;
+    position: absolute;
+    border: 1px black solid;
+}
+
+nav ul li:hover>ul{
+    display: block;
+}
+
+nav ul {
+    padding:0 20px;
+    border-radius:10px;
+    list-style:none;
+    position: relative;
+    display: inline-table;
+}
+
+nav ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li{
+    float: left;
+	width:20%;
+}
+
+nav ul li:hover {
+    background:white;
+	-webkit-transition:0.3s ease-in;
+}
+
+nav ul li:hover a {
+    color: black;
+	-webkit-transition:0.2s linear;
+}
+
+nav ul li a {
+    display: inherit;
+    padding: 8px 75px;
+    color: black;
+    text-decoration:none;
+    font-size: 22px;
+	width:16.4%;
+}
+
+nav ul ul li{
+    float:none;
+    position: relative;
+	padding:0;
+	margin:0;
+}
+
+nav ul ul li a {
+    font-size:16px;
+}
+
+nav ul ul li a:hover {
+	width:100%;
+	-webkit-transition:0.2s linear;
+	-webkit-border-radius:3px 3px 3px 3px;
+    background: white ;
+}
+
+#input{
+    height: 30px;
+    width: 500px;
+    border-radius: 0%;
+    background-color: whitesmoke;
+    font-family: cursive;
+}
+#submit{
+    height: 30px;
+    width: 80px;
+    background-color: #A6D0F9;
+    font-family: cursive;
+    border-radius: 5px;
+}
+#back{
+	position:absolute;
+	padding:0;
+	margin:0;
+	top:0;
+	background-image:url('images/bg.jpg');
+background-position: left top;
+    width:100%;
+    font-family: cursive;
+    height:100%;
+	-webkit-border-radius:9px 3px;
+}
+#tbox{
+	border:1px solid teal;
+	width:350px;
+	height:40px;
+	-webkit-border-radius:5px;
+	background-color:#c00000;
+	opacity:1;
+	color:black;
+}
+#mf{
+	left:35%;
+	position:absolute;
+}
+

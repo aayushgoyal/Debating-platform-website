@@ -1,0 +1,112 @@
+#all {
+    width:100%;
+	margin:0px;
+	padding:0px;
+	position:fixed;
+}
+#header{
+	top:2px;
+	position:absolute;
+    width:99%;
+	padding-top:0px;
+	padding-bottom:0px;
+    padding-left:0px;
+    padding-right:2px;
+    background-color:#009688;
+    color:white;
+    font-family:cursive;
+    font-size:50px;
+    height: 95px;
+	-webkit-border-radius:9px 3px;
+}
+
+#myform{
+	position:absolute;
+	top:10px;
+	left:68%;
+}
+#main{
+    width: auto;
+    background-color: ghostwhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: cursive;
+    color: black;
+    text-align: right;
+    height: 350px;
+}
+
+#right{
+	position:absolute;
+	padding:0;
+	margin:0;
+	top:28.5%;
+	background-image:url('images/wallpaper2.jpg');
+    width:99%;
+    font-family: cursive;
+    color: black;
+    height:527px;
+	-webkit-border-radius:9px 3px;
+}
+
+#textbox{
+	border:1px solid teal;
+	width:450px;
+	height:40px;
+	-webkit-border-radius:5px;
+	background-color:#006566;
+	color:black;
+}
+
+#textbox1{
+	border:1px solid black;
+	-webkit-border-radius:2px;
+}
+
+#myform1{
+	left:35%;
+	position:relative;
+}
+h1{
+left:49%;
+	position:relative;
+font-family:robota;	
+}
+#button{
+	width:450px;
+	left:0%;
+	position:relative;
+	height:40px;
+	background-color:#006566;
+	border:2px solid teal;
+	-webkit-border-radius:5px;
+}
+#button:hover{
+	-webkit-box-shadow:1px 1px 1px 1px #00897B;
+	-webkit-transition:0.3s linear;
+}
+
+#button1{
+	border:1px solid #00897B;
+	background-color:#009688;
+	-webkit-border-radius:2px;
+}
+#button1:hover{
+	background-color:#00897B;
+}
+#logo{
+			width:150px;
+			height:60px;
+			padding:0;
+			margin:0;
+			top:20px;
+			left:50px;
+			position:relative;
+		}
+		#sex{
+			border:1px solid teal;
+	width:450px;
+	height:40px;
+	-webkit-border-radius:5px;
+			
+		}
