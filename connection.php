@@ -1,2 +1,2 @@
 <?php
-$conn=mysqli_connect("127.0.0.1", "root", "aayushram", 'project1');
+$conn=mysqli_connect(SERVERIP, USER, PASSWORD, DB_NAME);
